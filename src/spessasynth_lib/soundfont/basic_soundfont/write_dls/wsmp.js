@@ -1,3 +1,4 @@
+/** @import { BasicSample } from "../basic_sample.js" */
 import { writeDword, writeWord } from "../../../utils/byte_functions/little_endian.js";
 import { IndexedByteArray } from "../../../utils/indexed_array.js";
 import { writeRIFFOddSize } from "../riff_chunk.js";

@@ -1,3 +1,4 @@
+/** @import { Modulator } from "../modulator.js" */
 import { midiControllers } from "../../../midi_parser/midi_message.js";
 import { DLSSources } from "../../dls/dls_sources.js";
 import { modulatorCurveTypes, modulatorSources } from "../modulator.js";

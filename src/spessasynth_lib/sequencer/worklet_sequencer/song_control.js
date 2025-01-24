@@ -1,3 +1,4 @@
+/** @import { WorkletSequencer } from "./worklet_sequencer.js" */
 import { WorkletSequencerReturnMessageType } from "./sequencer_message.js";
 import { consoleColors, formatTime } from "../../utils/other.js";
 import {

@@ -1,3 +1,8 @@
+/**
+ * @import { SpessaSynthProcessor } from "../main_processor.js"
+ * @import { IndexedByteArray } from '../../../utils/indexed_array.js'
+ */
+
 import { arrayToHexString, consoleColors } from "../../../utils/other.js";
 import { SpessaSynthInfo, SpessaSynthWarn } from "../../../utils/loggin.js";
 import { midiControllers } from "../../../midi_parser/midi_message.js";

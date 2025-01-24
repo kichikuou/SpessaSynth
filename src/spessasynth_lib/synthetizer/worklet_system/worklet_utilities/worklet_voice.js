@@ -108,7 +108,7 @@ import { Modulator } from "../../../soundfont/basic_soundfont/modulator.js";
  * Modulators (modulators)
  * And MIDI params such as channel, MIDI note, velocity
  */
-class WorkletVoice
+export class WorkletVoice
 {
     /**
      * The sample of the voice.

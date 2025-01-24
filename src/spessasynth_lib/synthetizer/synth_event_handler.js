@@ -80,7 +80,7 @@ import { SynthDisplayType } from "./worklet_system/worklet_methods/system_exclus
  */
 
 /**
- * @typedef {
+ * @typedef {(
  *     NoteOnCallback |
  *     NoteOffCallback |
  *     DrumChangeCallback |
@@ -93,11 +93,11 @@ import { SynthDisplayType } from "./worklet_system/worklet_methods/system_exclus
  *     ChannelPressureCallback |
  *     SynthDisplayCallback |
  *     undefined
- * } EventCallbackData
+ * )} EventCallbackData
  */
 
 /**
- * @typedef {
+ * @typedef {(
  * "noteon"|
  * "noteoff"|
  * "pitchwheel"|
@@ -112,7 +112,7 @@ import { SynthDisplayType } from "./worklet_system/worklet_methods/system_exclus
  * "presetlistchange"|
  * "allcontrollerreset"|
  * "soundfonterror"|
- * "synthdisplay"} EventTypes
+ * "synthdisplay")} EventTypes
  */
 export class EventHandler
 {

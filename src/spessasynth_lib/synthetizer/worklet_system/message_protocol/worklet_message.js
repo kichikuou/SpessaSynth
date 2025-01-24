@@ -1,4 +1,12 @@
 /**
+ * @import { WorkletVoice } from "../worklet_utilities/worklet_voice.js"
+ * @import { WorkletSequencerMessageType, WorkletSequencerReturnMessageType } from "../../../sequencer/worklet_sequencer/sequencer_message.js"
+ * @import { workletKeyModifierMessageType } from "../worklet_methods/worklet_key_modifier.js"
+ * @import { SynthesizerSnapshot } from "../snapshot/snapshot.js"
+ * @import { WorkletSoundfontManagerMessageType } from "../worklet_methods/worklet_soundfont_manager/sfman_message.js"
+ */
+
+/**
  * @enum {number}
  * // NOTE: Every message needs a channel number (if not relevant or all, set to -1)
  * @property {number} noteOff                    - 0  -> midiNote<number>
@@ -96,6 +104,8 @@ export const ALL_CHANNELS_OR_DIFFERENT_ACTION = -1;
 
 /**
  * @typedef {Object} WorkletReturnMessage
+ * @typedef {Object} ChannelProperty
+ * @typedef {Object} PresetListElement
  * @property {returnMessageType} messageType - the message's type
  * @property {{
  *     eventName: string,

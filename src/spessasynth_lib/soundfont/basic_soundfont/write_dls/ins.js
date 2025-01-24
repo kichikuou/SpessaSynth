@@ -1,3 +1,4 @@
+/** @import { BasicPreset } from "../basic_preset.js" */
 import { combineArrays, IndexedByteArray } from "../../../utils/indexed_array.js";
 import { combineZones } from "./combine_zones.js";
 import { writeRIFFOddSize } from "../riff_chunk.js";
